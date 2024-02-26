@@ -8,10 +8,11 @@ import static org.junit.Assert.assertTrue;
 public class DominoPileTester {
 
     private DominoPile dominoPile;
-
     public void setUp() {
         dominoPile = new DominoPile();
     }
+
+
 
     public void tearDown() {
         dominoPile = null;
